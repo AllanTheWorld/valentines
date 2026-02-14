@@ -1,0 +1,9 @@
+{
+  "name": "april-valentine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A romantic Valentine's Day website",
+  "scripts": {
+    "start": "echo 'Static site ready'"
+  }
+}

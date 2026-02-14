@@ -1,0 +1,29 @@
+💕 VALENTINE'S DAY WEBSITE - QUICK START 💕
+
+🚀 HOW TO RUN:
+1. Double-click "april.html" to open in your browser
+2. That's it! No installation needed.
+
+📸 ADD YOUR PHOTOS:
+1. Put your photos in the "image" folder
+2. Name them: photo1.jpg, photo2.jpg, photo3.jpg, etc.
+3. Refresh the page
+
+🎵 ADD MUSIC (Optional):
+1. Create a "music" folder
+2. Add your MP3 file
+3. Edit april.html line 61-63 (uncomment and update path)
+
+✨ WHAT TO EXPECT:
+- Page 1: Valentine invitation with YES/NO buttons
+- The NO button runs away when you try to click it! 😄
+- Page 2: Beautiful photo gallery
+- Click photos to view them fullscreen
+
+📱 MOBILE FRIENDLY:
+- Works perfectly on phones and tablets
+- Touch gestures supported
+
+❤️ Enjoy your romantic website!
+
+See README.md for detailed customization options.

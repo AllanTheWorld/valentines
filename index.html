@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="april.css">
+</head>
+<body>
+    <!-- Floating Hearts Background Animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Page 1: Valentine Invitation -->
+    <div class="page active" id="page1">
+        <div class="content-wrapper">
+            <h1 class="main-title">
+                Will you be my Valentine?
+                <span class="heart-icon">💖</span>
+            </h1>
+            
+            <div class="buttons-container">
+                <button class="btn btn-yes" id="yesBtn">
+                    YES! 💕
+                </button>
+                <!-- The NO button that moves away -->
+                <button class="btn btn-no" id="noBtn">
+                    No... 😢
+                </button>
+            </div>
+
+            <p class="subtitle">Click your answer carefully... 😊</p>
+        </div>
+    </div>
+
+    <!-- Page 2: Photo Reveal Game -->
+    <div class="page" id="page2">
+        <div class="gallery-container">
+            <h1 class="gallery-title">
+                Reveal Our Memories 💕
+            </h1>
+            
+            <div class="game-info">
+                <p class="game-instruction">Click the cards to reveal our special moments! ✨</p>
+                <div class="progress-container">
+                    <span class="progress-text">Revealed: <span id="revealedCount">0</span> / <span id="totalCount">16</span></span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="photo-grid" id="photoGrid">
+                <!-- Photo cards will be dynamically loaded here -->
+            </div>
+
+            <div class="love-message" id="loveMessage" style="display: none;">
+                <p class="message-subtitle">Thank you for being my Valentine 💖</p>
+                <button class="btn btn-letter" id="letterBtn">
+                    💌 Click Here
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3: Love Letter -->
+    <div class="page" id="page3">
+        <div class="letter-container">
+            <h1 class="letter-title">A Special Message For You 💕</h1>
+            
+            <div class="envelope-wrapper" id="envelopeWrapper">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body">
+                        <div class="heart-seal">💖</div>
+                    </div>
+                    <p class="tap-instruction">Click to open 💌</p>
+                </div>
+            </div>
+
+            <div class="letter" id="letter" style="display: none;">
+                <div class="letter-paper">
+                    <h2 class="letter-heading">To my Dearest April,</h2>
+                    <div class="letter-content" id="letterContent">
+                        <p>You are always be my baby girl </p>
+                        <p>I hope you had fun on our valentines day, I will always love you!</p>
+
+                    </div>
+                    <div class="letter-signature">
+                        <p>Forever your,</p>
+                        <p class="signature-name">Allan Loyd ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Modal for Photo Viewing -->
+    <div class="modal" id="photoModal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Full size photo">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- Background Music (Optional) -->
+    <audio id="bgMusic" loop>
+        <!-- Add your music file here -->
+        <!-- <source src="music/romantic-song.mp3" type="audio/mpeg"> -->
+    </audio>
+
+    <script src="april.js"></script>
+</body>
+</html>
